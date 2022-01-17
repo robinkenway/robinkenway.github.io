@@ -1,0 +1,227 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #FF4C68;
+  padding-bottom: 50px;
+}
+
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+i {
+  margin-right: 10px;
+}
+
+/* Introduction  */
+
+.download-button {
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+.dog-picture {
+  position: absolute;
+  margin-left: 50px;
+  height: 35rem;
+  transform: rotate(25deg);
+}
+
+@media (max-width: 991px){
+
+  .dog-picture {
+    position: relative;
+    height: 40rem;
+    transform: rotate(0);
+  }
+
+  #title {
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .head-fluid {
+    padding: 5rem;
+  }
+}
+/* Navigation Bar */
+
+.nav-container {
+  padding: -10%;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 0 18px;
+}
+
+.tindog-logo {
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  margin-bottom: 0 4.5rem;
+  padding: 0;
+}
+
+.head-fluid {
+  padding-left: 5rem;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.intro {
+  margin-top: 40px;
+}
+/* Features */
+#features {
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.features-container {
+  padding: 0 100px;
+  margin: 0;
+  text-align: center;
+}
+
+.features-row {
+  margin: 5rem auto;
+  padding: 0 5rem;
+}
+
+.features-icon {
+  margin: auto;
+  padding: 2rem;
+  color: #EF8172;
+}
+
+.features-icon:hover {
+  color: #FF4C68;
+}
+
+.features-description {
+  color: #8F8F8F;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+em {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-container {
+  margin-top: 60px;
+}
+
+.card {
+  margin: 15px;
+  height: 95%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.pricing-header {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pricing-fee {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Call to action section */
+
+.cta-header {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  padding: 3rem 5rem;
+  color: #fff;
+}
+
+#cta {
+  background-color: #FF4C68;
+  padding: 5% 10% 3%;
+  text-align: center;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 5% 10% 2%;
+  text-align: center;
+}
+
+.footer-copyright {
+    color: #8F8F8F;
+    margin-top: 10px;
+}
